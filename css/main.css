@@ -1,7 +1,8 @@
 body {
 background-color: white;
-font-family:
 }
+
+body
 header {
   background-color: rgba(250,193,0,255);
   display: flex;
@@ -12,6 +13,7 @@ header {
   height: 110px;
   font-size: 18px;
   font-weight: bolder;
+  font-family: "Poppins-reg";
 }
 header div:first-child {
     display: flex;
@@ -56,10 +58,16 @@ header div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: relative;
     background-color: rgb(0, 0, 0);
     height: 680px;
     color: white;
+
+}
+.hero h2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: "Poppins-bold-italic";
 
 }
 .container-hero {
@@ -67,45 +75,45 @@ header div:first-child {
     display: flex;
 }
 
-.container-hero div:first-child {
-    width: 60%;
+.hero-text {
+    width: 70%;
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 150px;
+    padding-top: 105px;
     gap:60px;
-    position: relative;
     color:white;
+
   
 }
 
 .container-hero div:last-child {
-  width: 40%; 
-  position: relative; 
+  width: 30%; 
+ 
 }
 
-.hero-text h2 {
+.hero-text h1 {
     font-weight: bolder;
     font-size: 80px;
     text-transform: capitalize;
-    font-style: italic;
+    font-family: "Poppins-bold-italic";
 
 }
  
 #hero-span {
-    top: 243px;
-    left: 230px;
     color: #fac100;
     position: absolute;
+    right: 70px;
+   
   
 }
 .hero-text p {
-    border: 3px solid white;
    padding-right: 100px;
-   font-size: 20px;
+   font-size: 26px;
+   font-family: "Poppins-reg";
 }
 
-.hero-img {
+.hero-img img{
     position: absolute;
     right: 45px;
 }
@@ -119,6 +127,7 @@ header div:first-child {
     height: 250px;
     align-items: center;
     padding: 0 170px;
+    font-family: "Poppins-reg";
 
 }
 .true-text h3 {
@@ -126,10 +135,11 @@ header div:first-child {
     font-weight: bolder;
     text-align: center;
     font-weight: bold;
+    font-family: "Poppins-extra-bold";
   
 }
 .true-text p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     text-transform: capitalize;
    
@@ -148,7 +158,8 @@ header div:first-child {
 .about-us h2 {
     text-transform: capitalize;
     font-weight:900;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: "Poppins-extra-bold";
 }
 .about-us-box1 {
     display: flex;
@@ -161,10 +172,11 @@ header div:first-child {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:80px;
+    gap:35px;
 }
 .about-us p {
     font-size: 20px;
+    font-family: "Poppins-reg";
 }
 .bt-style {
     background-color: #fac100;
@@ -173,7 +185,9 @@ header div:first-child {
     padding: 18px;
     text-transform: capitalize;
     border-radius: 10px;
-    width: fit-content;    
+    width: fit-content; 
+    font-family: "Poppins-extra-bold"; 
+
 }
 .about-us-box1-img {
     width: 100%;
@@ -196,15 +210,18 @@ header div:first-child {
     flex-direction: row;
     padding: 100px 0 100px 0; 
     gap:50px; 
+    
 }
 .mission h2 {
-    text-transform: capitalize;
+   text-transform: capitalize;
     font-weight:900;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: "Poppins-extra-bold";
 
 }
 .mission p {
     font-size: 20px;
+    font-family: "Poppins-reg";
 }
 .container-mision-div-img {
     
@@ -220,7 +237,7 @@ header div:first-child {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:80px;
+    gap:60px;
 }
 .circle::before {
     content: "";
