@@ -32,6 +32,9 @@ header div:first-child {
     font-weight: bolder;
     width: 40%;
 }
+#header nav a:hover {
+    border-bottom: 4px solid white;
+}
 
 .header-search-phone {
     width: 30%;
@@ -190,6 +193,12 @@ header div:first-child {
     font-family: "Poppins-extra-bold"; 
 
 }
+.bt-style:hover {
+      background-color: #fbd761;
+     
+    
+}
+
 .about-us-box1-img {
     width: 100%;
 }
@@ -319,6 +328,11 @@ header div:first-child {
     border: none; 
 
 }
+.div-form-ctc-me button:hover {
+    background-color: #fbd761
+
+}
+
 .div-contact-me-img
 {width: 40%;
 }
@@ -353,9 +367,11 @@ header div:first-child {
     position: relative;
 }
 
+
 .subscribe-email {
     border: none;
 }
+
 .div-subscribe-img {
     position: absolute;
     right: 100px;
@@ -374,6 +390,10 @@ header div:first-child {
     font-family: "Poppins-reg";
     font-size: 22px;
     border: none;
+}
+.subscribe-subscribe:hover {
+    background-color: #fbd761;
+   
 }
 .subscribe-email::placeholder {
     font-family: "Poppins-reg";
@@ -431,6 +451,10 @@ footer {
     font-family: "Poppins-reg";
     font-size: 16px;
    
+}
+.footer-section a:hover {
+    font-weight: bold;
+    color: #fac100;
 }
 .footer-menu, .footer-more-links, .footer-contact-info {
     width: 15%;
